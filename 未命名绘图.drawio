@@ -81,6 +81,104 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7-r7s8XaMngTDisUGWK2-6" value="新增一级区域" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-7" value="区域名称" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-6">
+          <mxGeometry x="10" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-6">
+          <mxGeometry x="90" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-9" value="区域坐标" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-6">
+          <mxGeometry x="10" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-10" value="markArea对象&lt;div&gt;要求该地图上只画出绿色的区域，且只能画1个&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-6">
+          <mxGeometry x="90" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-11" value="新增二级区域" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="230" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-12" value="区域名称" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-11">
+          <mxGeometry x="10" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-11">
+          <mxGeometry x="90" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-14" value="区域坐标" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-11">
+          <mxGeometry x="10" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-15" value="markArea对象&lt;div&gt;要求该地图上只画出红色的区域，且只能画1个&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-11">
+          <mxGeometry x="90" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-r7s8XaMngTDisUGWK2-21" target="7-r7s8XaMngTDisUGWK2-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-21" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;一级、二级区域混合列表&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="290" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-22" value="一级区域" style="swimlane;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-21">
+          <mxGeometry x="20" y="40" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-23" value="区域名称" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-22">
+          <mxGeometry x="10" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-22">
+          <mxGeometry x="90" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-25" value="区域坐标" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-22">
+          <mxGeometry x="10" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-26" value="markArea对象（绿色）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-22">
+          <mxGeometry x="90" y="85" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-27" value="二级区域" style="swimlane;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-21">
+          <mxGeometry x="20" y="180" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-28" value="区域名称" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-27">
+          <mxGeometry x="10" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-27">
+          <mxGeometry x="90" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-30" value="区域坐标" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-27">
+          <mxGeometry x="10" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-31" value="markArea对象（红色）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-27">
+          <mxGeometry x="90" y="85" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-32" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;一级、二级区域混合列表（ 地图）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="290" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-44" value="一级区域地图点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-32">
+          <mxGeometry x="60" y="90" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-45" value="二级区域地图点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-32">
+          <mxGeometry x="160" y="90" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-46" value="点击&lt;div&gt;绘制一级区域&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-32">
+          <mxGeometry x="30" y="235" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-55" value="点击&lt;br&gt;绘制二级区域" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-32">
+          <mxGeometry x="150" y="235" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-56" value="编辑 二级区域" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="820" y="270" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-57" value="区域名称" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-56">
+          <mxGeometry x="10" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7-r7s8XaMngTDisUGWK2-56">
+          <mxGeometry x="90" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-r7s8XaMngTDisUGWK2-45" target="7-r7s8XaMngTDisUGWK2-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-r7s8XaMngTDisUGWK2-62" value="点击编辑" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7-r7s8XaMngTDisUGWK2-61">
+          <mxGeometry x="-0.2632" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
